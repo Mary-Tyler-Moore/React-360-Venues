@@ -5,7 +5,7 @@
 
 import React from 'react';
 import {asset, Text, Image, View, StyleSheet} from 'react-360';
-//import {VideoPlayer} from 'react-360-common-ui';
+import {VideoPlayer, VideoControl} from './VideoExtra.js';
 
 const FONT_SIZE_ATTR = 10;
 const FONT_SIZE_TEXT = 20;
@@ -156,13 +156,18 @@ class VideoTooltip extends React.Component {
     const {tooltip, visible} = this.props;
 
     return (
-    //  <VideoPlayer
-    //    source={{url: asset(tooltip.source).uri}}
-    //    stereo={'2D'}
-    //    style={{height: tooltip.height, width: tooltip.width}}
-    //    visible={visible}
-    //  />
-    <div></div>
+
+      <View style={styles.panel}>
+        <VideoPlayer
+           muted={true}
+           source={{url: asset('Three-Cocktails.webm').uri}}
+           stereo={'2D'}
+           style={{
+             width: 800,
+             height: 400,
+           }}
+         />  
+      </View>
     );
   }
 }
