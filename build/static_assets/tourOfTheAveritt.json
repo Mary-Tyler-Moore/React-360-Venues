@@ -1,0 +1,148 @@
+{
+    "nav_icon": "chester_icon.png",
+    "firstPhotoId":"000001",
+    "firstPhotoRotation":350,
+    "soundEffects": {
+       "navButton": {
+          "onEnter": {
+             "uri": "switch-flip.wav",
+             "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+          },
+          "onClick": {
+             "uri": "menu-click.wav",
+             "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+          }
+       },
+       "infoButton": {
+          "onEnter": {
+             "uri": "switch-flip.wav",
+             "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+          }
+       },
+       "ambient": {
+          "uri": "",
+          "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+          "loop": true,
+          "volume": 0.50
+       }
+    },
+    "photos":{
+       "000001":{
+          "rotationOffset": 240,
+          "uri":"aca-1.jpg",
+          "tooltips":[
+             {
+                "text":"Gallery",
+                "rotationY": 142,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Boxoffice",
+                "rotationY": 95,
+                "linkedPhotoId":"000003"
+             }
+          ]
+       },
+       "000002":{
+          "rotationOffset": -50,
+          "uri":"aca-2.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": 80,
+                "linkedPhotoId":"000003"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 16,
+                "linkedPhotoId":"000001"
+             },
+             {
+                "text":"Upstairs",
+                "rotationY": -100,
+                "linkedPhotoId":""
+             }
+          ]
+       },
+       "000003":{
+          "rotationOffset": 100,
+          "uri":"aca-3.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": -90,
+                "linkedPhotoId":"000004"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 85,
+                "linkedPhotoId":"000005"
+             }
+          ]
+       },
+       "000004":{
+          "rotationOffset": 185,
+          "uri":"aca-6.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": 215,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 280,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 245,
+                "linkedPhotoId":""
+             },
+             {
+                "text":"Outside",
+                "rotationY": 0,
+                "linkedPhotoId":""
+             }
+          ]
+       },
+       "000005":{
+        "rotationOffset": 75,
+        "uri":"aca-6.jpg",
+        "tooltips":[
+           {
+              "text":"The Theatre",
+              "rotationY": 29.348,
+              "linkedPhotoId":"000003"
+           },
+           {
+              "text":"Gallery",
+              "rotationY": 29.348,
+              "linkedPhotoId":"112362"
+           },
+           {
+              "text":"Balcony",
+              "rotationY": 29.348,
+              "linkedPhotoId":""
+           }
+        ]
+     },
+     "000006":{
+        "rotationOffset": 75,
+        "uri":"aca-7.jpg",
+        "tooltips":[
+           {
+              "text":"Center Stage",
+              "rotationY": 29.348,
+              "linkedPhotoId":""
+           },
+           {
+              "text":"Lobby",
+              "rotationY": 29.348,
+              "linkedPhotoId":""
+           }
+        ]
+     }
+    }
+ }
+ 
