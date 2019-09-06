@@ -20,10 +20,10 @@
           }
        },
        "ambient": {
-          "uri": "",
+          "uri": "ambient.wav",
           "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
           "loop": true,
-          "volume": 0.50
+          "volume": 0.40
        }
     },
     "photos":{
@@ -37,9 +37,9 @@
                 "linkedPhotoId":"000002"
              },
              {
-                "text":"Boxoffice",
+                "text":"Box office",
                 "rotationY": 95,
-                "linkedPhotoId":"000003"
+                "linkedPhotoId":"000010"
              }
           ]
        },
@@ -58,7 +58,7 @@
                 "linkedPhotoId":"000001"
              },
              {
-                "text":"Upstairs",
+                "text":"Stairs",
                 "rotationY": -100,
                 "linkedPhotoId":""
              }
@@ -97,12 +97,12 @@
              {
                 "text":"Balcony",
                 "rotationY": 245,
-                "linkedPhotoId":""
+                "linkedPhotoId":"000013"
              },
              {
                 "text":"Outside",
                 "rotationY": 0,
-                "linkedPhotoId":""
+                "linkedPhotoId":"000010"
              }
           ]
        },
@@ -118,29 +118,156 @@
            {
               "text":"Gallery",
               "rotationY": 29.348,
-              "linkedPhotoId":"112362"
+              "linkedPhotoId":"000005"
            },
            {
               "text":"Balcony",
               "rotationY": 29.348,
-              "linkedPhotoId":""
+              "linkedPhotoId":"000013"
            }
         ]
      },
      "000006":{
-        "rotationOffset": 75,
+        "rotationOffset": 50,
         "uri":"aca-7.jpg",
         "tooltips":[
            {
               "text":"Center Stage",
-              "rotationY": 29.348,
-              "linkedPhotoId":""
+              "rotationY": -15.2,
+              "linkedPhotoId":"000007"
            },
            {
               "text":"Lobby",
-              "rotationY": 29.348,
-              "linkedPhotoId":""
+              "rotationY": 223,
+              "linkedPhotoId":"000007"
            }
+        ]
+     },
+     "000007":{
+        "rotationOffset": 10,
+        "uri":"aca-8.jpg",
+        "tooltips":[
+           {
+              "text":"Lobby",
+              "rotationY": -15.2,
+              "linkedPhotoId":"000008"
+           }
+        ]
+     },
+     "000008":{
+        "rotationOffset": 190,
+        "uri":"aca-9.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 90,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 137,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 122,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 181,
+                "linkedPhotoId":"000010"
+             }
+        ]
+     },
+     "000009":{
+        "rotationOffset": 190,
+        "uri":"aca-9.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 90,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 137,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 122,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 181,
+                "linkedPhotoId":"000010"
+             }
+        ]
+     },
+     "000010":{
+        "rotationOffset": 210,
+        "uri":"aca-10.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 180,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Front",
+                "rotationY": -85,
+                "linkedPhotoId":"000011"
+             }
+        ]
+     },
+     "000011":{
+        "rotationOffset": 210,
+        "uri":"aca-14.jpg",
+        "tooltips":[
+            {
+                "text":"Box office",
+                "rotationY": 100,
+                "linkedPhotoId":"000010"
+             },
+             {
+                "text":"Front",
+                "rotationY": -85,
+                "linkedPhotoId":"000001"
+             }
+        ]
+     },
+     "000012":{
+        "rotationOffset": 210,
+        "uri":"aca-.jpg",
+        "tooltips":[
+            {
+                "text":"Balcony",
+                "rotationY": 100,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Lobby",
+                "rotationY": -85,
+                "linkedPhotoId":"000004"
+             }
+        ]
+     },
+     "000013":{
+        "rotationOffset": 15,
+        "uri":"aca-16.jpg",
+        "tooltips":[
+            {
+                "text":"Lobby",
+                "rotationY": 100,
+                "linkedPhotoId":"000004"
+             },
+             {
+                "text":"Center Stage",
+                "rotationY": 0,
+                "linkedPhotoId":"000007"
+             }
         ]
      }
     }
