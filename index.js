@@ -29,7 +29,7 @@ const ENV_TRANSITION_TIME = 1000;
 
 class TourAppTemplate extends React.Component {
   static defaultProps = {
-    tourSource: 'tourOfTheChester.json',
+    tourSource: 'tourOfTheAveritt.json',
   };
 
   constructor(props) {

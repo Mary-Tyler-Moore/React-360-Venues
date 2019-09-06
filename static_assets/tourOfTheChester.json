@@ -1,7 +1,7 @@
 {
    "nav_icon": "chester_icon.png",
    "firstPhotoId":"112379",
-   "firstPhotoRotation":150,
+   "firstPhotoRotation":350,
    "soundEffects": {
       "navButton": {
          "onEnter": {
@@ -20,7 +20,7 @@
          }
       },
       "ambient": {
-         "uri": "cafe.wav",
+         "uri": "",
          "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
          "loop": true,
          "volume": 0.50
@@ -28,22 +28,22 @@
    },
    "photos":{
       "112362":{
-         "rotationOffset": 0,
-         "uri":"the-chester--v112362.prefilter.jpg",
+         "rotationOffset": -140,
+         "uri":"aca-2.jpg",
          "tooltips":[
             {
-               "text":"The Bar",
-               "rotationY": -9.929,
-               "linkedPhotoId":"112379"
+               "text":"The Theatre",
+               "rotationY": 75,
+               "linkedPhotoId":"000001"
             },
             {
-               "text":"Biergarten",
+               "text":"Upstairs",
                "rotationY": -106.844,
                "linkedPhotoId":"112355"
             },
             {
-               "text":"The Arthur",
-               "rotationY": 170.42,
+               "text":"The Theatres",
+               "rotationY": 200,
                "linkedPhotoId":"112399"
             },
             {
@@ -59,16 +59,16 @@
       },
       "112379":{
          "rotationOffset": -120,
-         "uri":"the-chester--v112379.prefilter.jpg",
+         "uri":"aca-1.jpg",
          "tooltips":[
             {
-               "text":"Restaurant",
-               "rotationY": -64.525,
+               "text":"Gallery",
+               "rotationY": 142,
                "linkedPhotoId":"112362"
             },
             {
                "type": "panelimage",
-               "rotationY": 140,
+               "rotationY": 125,
                "width": 256,
                "height": 256,
                "source": "old-fashioned.jpg",
@@ -81,7 +81,7 @@
                "title": "The Chester",
                "text": "An American restaurant, bar, and private event space located in The Gansevoort Hotel in New York City, The Chester is designed to bring guests together at any time of day. It features a vibrant bar scene and a lively dining ara, as well as an exclusive boutique nightclub and outdoor beirgarten.",
                "attribution": "360 Photos courtesy of Oyster.com, text from TheChester.com",
-               "rotationY": 0,
+               "rotationY": 95,
                "width": 300,
                "height": 300
             }
@@ -136,20 +136,12 @@
       },
       "112399":{
          "rotationOffset": 90,
-         "uri":"the-chester--v112399.prefilter.jpg",
+         "uri":"aca-3.jpg",
          "tooltips":[
             {
                "text":"Restaurant",
                "rotationY": -115,
                "linkedPhotoId":"112362"
-            },
-            {
-               "type": "video",
-               "rotationY": 80,
-               "width": 512,
-               "height": 248,
-               "source":"Three-Cocktails.webm",
-               "muted":true
             },
             {
                "type": "image",
@@ -188,6 +180,85 @@
                "text":"Biergarten",
                "rotationY": 29.348,
                "linkedPhotoId":"112355"
+            }
+         ]
+      },
+      "000001":{
+         "rotationOffset": 75,
+         "uri":"aca-3.jpg",
+         "tooltips":[
+            {
+               "text":"The Theatre",
+               "rotationY": 29.348,
+               "linkedPhotoId":"000002"
+            },
+            {
+               "text":"Gallery",
+               "rotationY": 29.348,
+               "linkedPhotoId":"112362"
+            }
+         ]
+      },
+      "000002":{
+         "rotationOffset": 50,
+         "uri":"aca-4.jpg",
+         "tooltips":[
+            {
+               "text":"The Theatre",
+               "rotationY": 40,
+               "linkedPhotoId":"000003"
+            },
+            {
+               "text":"Gallery",
+               "rotationY": 29.348,
+               "linkedPhotoId":"112362"
+            },
+            {
+               "text":"Balcony",
+               "rotationY": 29.348,
+               "linkedPhotoId":""
+            }
+         ]
+      },
+      "000003":{
+         "rotationOffset": 75,
+         "uri":"aca-5.jpg",
+         "tooltips":[
+            {
+               "text":"The Theatre",
+               "rotationY": 40,
+               "linkedPhotoId":"000004"
+            },
+            {
+               "text":"Gallery",
+               "rotationY": 29.348,
+               "linkedPhotoId":"112362"
+            },
+            {
+               "text":"Balcony",
+               "rotationY": 29.348,
+               "linkedPhotoId":""
+            }
+         ]
+      },
+      "000004":{
+         "rotationOffset": 75,
+         "uri":"aca-6.jpg",
+         "tooltips":[
+            {
+               "text":"The Theatre",
+               "rotationY": 29.348,
+               "linkedPhotoId":"000003"
+            },
+            {
+               "text":"Gallery",
+               "rotationY": 29.348,
+               "linkedPhotoId":"112362"
+            },
+            {
+               "text":"Balcony",
+               "rotationY": 29.348,
+               "linkedPhotoId":""
             }
          ]
       },
