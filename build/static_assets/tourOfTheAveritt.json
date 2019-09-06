@@ -20,7 +20,7 @@
           }
        },
        "ambient": {
-          "uri": "ambient.wav",
+          "uri": "",
           "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
           "loop": true,
           "volume": 0.40
@@ -139,7 +139,7 @@
            {
               "text":"Lobby",
               "rotationY": 223,
-              "linkedPhotoId":"000007"
+              "linkedPhotoId":"000004"
            }
         ]
      },
