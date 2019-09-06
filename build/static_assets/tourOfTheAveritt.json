@@ -5,12 +5,12 @@
     "soundEffects": {
        "navButton": {
           "onEnter": {
-             "uri": "switch-flip.wav",
-             "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+             "uri": "weird.wav",
+             "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/"
           },
           "onClick": {
-             "uri": "menu-click.wav",
-             "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+             "uri": "old-flash.wav",
+             "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/"
           }
        },
        "infoButton": {
@@ -40,7 +40,17 @@
                 "text":"Box office",
                 "rotationY": 95,
                 "linkedPhotoId":"000010"
-             }
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 123,
+               "width": 400,
+               "height":200,
+               "source":"averitt-wiki.jpg",
+               "text": "Home of the Emma Kelly Theater, four art galleries with rotating exhibits, workshops, classes, summer camps, performances, and rental opportunities!",
+               "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            }
           ]
        },
        "000002":{
@@ -60,8 +70,28 @@
              {
                 "text":"Stairs",
                 "rotationY": -100,
-                "linkedPhotoId":""
-             }
+                "linkedPhotoId":"000014"
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 120,
+               "width": 256,
+               "height":170,
+               "source":"averitt-wiki.jpg",
+               "text": "We are proud to offer professional exhibit seasons in the Main Gallery, a professional performance season in the Emma Kelly Theater, and community/special events and exhibits throughout the year!",
+               "attribution": "Photo by yutacar on upslash",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 210,
+               "width": 500,
+               "height":275,
+               "source":"roxie.jpg",
+               "text": "Born in 1919, Remley grew up on a farm near Darlington, Indiana. She graduated from Peabody College with bachelors and master’s degrees in art education before attending the prestigious Pratt Institute School of Art in New York City where she earned a master of fine arts. During World War II she served in the Women’s Army Corps where she was assigned to a top-secret antiaircraft gun battery experiment in Washington D.C. She attained the rank of captain before leaving the service in 1946. In 1950, she came to what was then Georgia Teachers College where she molded a few art education courses into an academic department. She taught drawing, painting and art history at Georgia Southern for 26 years, retiring in 1976. In the years since, she has and continued to produce art. She has shown her work in over 100 exhibitions, including 20 solo exhibitions.",
+               "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            }
           ]
        },
        "000003":{
@@ -219,7 +249,17 @@
                 "text":"Front",
                 "rotationY": -85,
                 "linkedPhotoId":"000011"
-             }
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 124,
+               "width": 400,
+               "height":500,
+               "source":"upcoming.png",
+               "text": "Call our box office at 912-212-2787 to get season tickets.",
+               "attribution": "P",
+               "attributionUri": ""
+            }
         ]
      },
      "000011":{
@@ -267,6 +307,38 @@
                 "text":"Center Stage",
                 "rotationY": 0,
                 "linkedPhotoId":"000007"
+             }
+        ]
+     },
+     "000014":{
+        "rotationOffset": 15,
+        "uri":"aca-17.jpg",
+        "tooltips":[
+            {
+                "text":"Gallery",
+                "rotationY": 100,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Upstairs",
+                "rotationY": 0,
+                "linkedPhotoId":"000015"
+             }
+        ]
+     },
+     "000015":{
+        "rotationOffset": 15,
+        "uri":"aca-18.jpg",
+        "tooltips":[
+            {
+                "text":"Rehersals",
+                "rotationY": 100,
+                "linkedPhotoId":"0000"
+             },
+             {
+                "text":"Downstairs",
+                "rotationY": 0,
+                "linkedPhotoId":"000014"
              }
         ]
      }
