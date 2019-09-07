@@ -1,5 +1,5 @@
 {
-    "nav_icon": "chester_icon.png",
+    "nav_icon": "nav.png",
     "firstPhotoId":"000001",
     "firstPhotoRotation":350,
     "soundEffects": {
@@ -29,7 +29,7 @@
     "photos":{
        "000001":{
           "rotationOffset": 240,
-          "uri":"aca-1.jpg",
+          "uri":"PHOTO_0263.jpg",
           "tooltips":[
              {
                 "text":"Gallery",
