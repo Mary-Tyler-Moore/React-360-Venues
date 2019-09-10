@@ -5,17 +5,17 @@
     "soundEffects": {
        "navButton": {
           "onEnter": {
-             "uri": "weird.wav",
+             "uri": "",
              "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/"
           },
           "onClick": {
-             "uri": "old-flash.wav",
+             "uri": "",
              "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/"
           }
        },
        "infoButton": {
           "onEnter": {
-             "uri": "switch-flip.wav",
+             "uri": "",
              "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
           }
        },
