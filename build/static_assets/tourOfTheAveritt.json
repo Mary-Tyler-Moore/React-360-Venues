@@ -7,16 +7,19 @@
           "onEnter": {
              "uri": "weird.wav",
              "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/"
+             "volume": 0.10 
           },
           "onClick": {
              "uri": "old-flash.wav",
              "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/"
+             "volume": 0.10  
           }
        },
        "infoButton": {
           "onEnter": {
              "uri": "switch-flip.wav",
              "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+             "volume": 0.10  
           }
        },
        "ambient": {
