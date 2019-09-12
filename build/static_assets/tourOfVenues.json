@@ -5,25 +5,25 @@
     "soundEffects": {
        "navButton": {
           "onEnter": {
-             "uri": "weird.wav",
+             "uri": "",
              "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/",
              "volume": 0.05
           },
           "onClick": {
-             "uri": "old-flash.wav",
+             "uri": "",
              "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/",
              "volume": 0.05
           }
        },
        "infoButton": {
           "onEnter": {
-             "uri": "switch-flip.wav",
+             "uri": "",
              "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/",
              "volume": 0.03
           }
        },
        "ambient": {
-          "uri": "cafe.wav",
+          "uri": "",
           "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
           "loop": false,
           "volume": 0.40
@@ -31,22 +31,22 @@
     },
     "photos":{
        "000001":{
-          "rotationOffset": 240,
+          "rotationOffset": 0,
           "uri":"venues-1.jpg",
           "tooltips":[
              {
-                "text":"Gallery",
-                "rotationY": 142,
+                "text":"Industrial Technology Building",
+                "rotationY": 187,
+                "linkedPhotoId":"000011"
+             },
+             {
+                "text":"The Atrium",
+                "rotationY": 25,
                 "linkedPhotoId":"000002"
              },
              {
-                "text":"Box office",
-                "rotationY": 95,
-                "linkedPhotoId":"000010"
-             },
-             {
                "type": "panelimage",
-               "rotationY": 123,
+               "rotationY": 10,
                "width": 400,
                "height":200,
                "source":"averitt-wiki.jpg",
@@ -270,14 +270,14 @@
         "uri":"venues-11.jpg",
         "tooltips":[
             {
-                "text":"Box office",
-                "rotationY": 100,
-                "linkedPhotoId":"000010"
+                "text":"The Venues",
+                "rotationY": 50,
+                "linkedPhotoId":"000001"
              },
              {
-                "text":"Front",
-                "rotationY": -85,
-                "linkedPhotoId":"000001"
+                "text":"Robotics Lab",
+                "rotationY": -40,
+                "linkedPhotoId":"000012"
              }
         ]
      },
@@ -285,15 +285,10 @@
         "rotationOffset": 210,
         "uri":"venues-12.jpg",
         "tooltips":[
-            {
-                "text":"Balcony",
-                "rotationY": 100,
-                "linkedPhotoId":"000013"
-             },
              {
                 "text":"Lobby",
                 "rotationY": -85,
-                "linkedPhotoId":"000004"
+                "linkedPhotoId":"000011"
              }
         ]
      }
