@@ -1,0 +1,302 @@
+{
+    "nav_icon": "nav.png",
+    "firstPhotoId":"000001",
+    "firstPhotoRotation":350,
+    "soundEffects": {
+       "navButton": {
+          "onEnter": {
+             "uri": "weird.wav",
+             "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/",
+             "volume": 0.05
+          },
+          "onClick": {
+             "uri": "old-flash.wav",
+             "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/",
+             "volume": 0.05
+          }
+       },
+       "infoButton": {
+          "onEnter": {
+             "uri": "switch-flip.wav",
+             "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/",
+             "volume": 0.03
+          }
+       },
+       "ambient": {
+          "uri": "cafe.wav",
+          "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+          "loop": false,
+          "volume": 0.40
+       }
+    },
+    "photos":{
+       "000001":{
+          "rotationOffset": 240,
+          "uri":"venues-1.jpg",
+          "tooltips":[
+             {
+                "text":"Gallery",
+                "rotationY": 142,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Box office",
+                "rotationY": 95,
+                "linkedPhotoId":"000010"
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 123,
+               "width": 400,
+               "height":200,
+               "source":"averitt-wiki.jpg",
+               "text": "Home of the Emma Kelly Theater, four art galleries with rotating exhibits, workshops, classes, summer camps, performances, and rental opportunities!",
+               "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            }
+          ]
+       },
+       "000002":{
+          "rotationOffset": -50,
+          "uri":"venues-2.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": 80,
+                "linkedPhotoId":"000003"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 16,
+                "linkedPhotoId":"000001"
+             },
+             {
+                "text":"Stairs",
+                "rotationY": -100,
+                "linkedPhotoId":"000014"
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 120,
+               "width": 256,
+               "height":170,
+               "source":"averitt-wiki.jpg",
+               "text": "We are proud to offer professional exhibit seasons in the Main Gallery, a professional performance season in the Emma Kelly Theater, and community/special events and exhibits throughout the year!",
+               "attribution": "Photo by yutacar on upslash",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 210,
+               "width": 500,
+               "height":275,
+               "source":"roxie.jpg",
+               "text": "Born in 1919, Remley grew up on a farm near Darlington, Indiana. She graduated from Peabody College with bachelors and master’s degrees in art education before attending the prestigious Pratt Institute School of Art in New York City where she earned a master of fine arts. During World War II she served in the Women’s Army Corps where she was assigned to a top-secret antiaircraft gun battery experiment in Washington D.C. She attained the rank of captain before leaving the service in 1946. In 1950, she came to what was then Georgia Teachers College where she molded a few art education courses into an academic department. She taught drawing, painting and art history at Georgia Southern for 26 years, retiring in 1976. In the years since, she has and continued to produce art. She has shown her work in over 100 exhibitions, including 20 solo exhibitions.",
+               "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
+               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            }
+          ]
+       },
+       "000003":{
+          "rotationOffset": 100,
+          "uri":"venues-3.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": -90,
+                "linkedPhotoId":"000004"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 85,
+                "linkedPhotoId":"000005"
+             }
+          ]
+       },
+       "000004":{
+          "rotationOffset": 185,
+          "uri":"venues-4.jpg",
+          "tooltips":[
+             {
+                "text":"The Theatre",
+                "rotationY": 215,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 280,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 245,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 0,
+                "linkedPhotoId":"000010"
+             }
+          ]
+       },
+       "000005":{
+        "rotationOffset": 75,
+        "uri":"venues-5.jpg",
+        "tooltips":[
+           {
+              "text":"The Theatre",
+              "rotationY": 29.348,
+              "linkedPhotoId":"000003"
+           },
+           {
+              "text":"Gallery",
+              "rotationY": 29.348,
+              "linkedPhotoId":"000005"
+           },
+           {
+              "text":"Balcony",
+              "rotationY": 29.348,
+              "linkedPhotoId":"000013"
+           }
+        ]
+     },
+     "000006":{
+        "rotationOffset": 50,
+        "uri":"venues-6.jpg",
+        "tooltips":[
+           {
+              "text":"Center Stage",
+              "rotationY": -15.2,
+              "linkedPhotoId":"000007"
+           },
+           {
+              "text":"Lobby",
+              "rotationY": 223,
+              "linkedPhotoId":"000004"
+           }
+        ]
+     },
+     "000007":{
+        "rotationOffset": 10,
+        "uri":"venues-7.jpg",
+        "tooltips":[
+           {
+              "text":"Lobby",
+              "rotationY": -15.2,
+              "linkedPhotoId":"000008"
+           }
+        ]
+     },
+     "000008":{
+        "rotationOffset": 190,
+        "uri":"venues-8.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 90,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 137,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 122,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 181,
+                "linkedPhotoId":"000010"
+             }
+        ]
+     },
+     "000009":{
+        "rotationOffset": 190,
+        "uri":"venues-9.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 90,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Gallery",
+                "rotationY": 137,
+                "linkedPhotoId":"000002"
+             },
+             {
+                "text":"Balcony",
+                "rotationY": 122,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Outside",
+                "rotationY": 181,
+                "linkedPhotoId":"000010"
+             }
+        ]
+     },
+     "000010":{
+        "rotationOffset": 210,
+        "uri":"venues-10.jpg",
+        "tooltips":[
+            {
+                "text":"The Theatre",
+                "rotationY": 180,
+                "linkedPhotoId":"000006"
+             },
+             {
+                "text":"Front",
+                "rotationY": -85,
+                "linkedPhotoId":"000011"
+             },
+             {
+               "type": "panelimage",
+               "rotationY": 124,
+               "width": 400,
+               "height":500,
+               "source":"upcoming.png",
+               "text": "Call our box office at 912-212-2787 to get season tickets.",
+               "attribution": "P",
+               "attributionUri": ""
+            }
+        ]
+     },
+     "000011":{
+        "rotationOffset": 210,
+        "uri":"venues-11.jpg",
+        "tooltips":[
+            {
+                "text":"Box office",
+                "rotationY": 100,
+                "linkedPhotoId":"000010"
+             },
+             {
+                "text":"Front",
+                "rotationY": -85,
+                "linkedPhotoId":"000001"
+             }
+        ]
+     },
+     "000012":{
+        "rotationOffset": 210,
+        "uri":"venues-12.jpg",
+        "tooltips":[
+            {
+                "text":"Balcony",
+                "rotationY": 100,
+                "linkedPhotoId":"000013"
+             },
+             {
+                "text":"Lobby",
+                "rotationY": -85,
+                "linkedPhotoId":"000004"
+             }
+        ]
+     }
+    }
+ }
+ 
