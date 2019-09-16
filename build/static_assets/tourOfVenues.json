@@ -44,6 +44,11 @@
                 "rotationY": 25,
                 "linkedPhotoId":"000002"
              },
+              {
+                "text":"Compare Insta360",
+                "rotationY": 40,
+                "linkedPhotoId":"000013"
+             },
              {
                "type": "panelimage",
                "rotationY": 10,
@@ -291,7 +296,18 @@
                 "linkedPhotoId":"000011"
              }
         ]
-     }
+     },
+     "000013":{
+        "rotationOffset": 210,
+        "uri":"insta-360.png",
+        "tooltips":[
+             {
+                "text":"Return Home",
+                "rotationY": -100,
+                "linkedPhotoId":"000001"
+             }
+        ]
+     }   
     }
  }
  
