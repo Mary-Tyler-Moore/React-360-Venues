@@ -31,7 +31,7 @@
    },
    "photos":{
       "000001":{
-         "rotationOffset": 0,
+         "rotationOffset": 10,
          "uri":"venues-1.jpg",
          "tooltips":[
             {
@@ -50,27 +50,25 @@
                "linkedPhotoId":"000013"
             },
             {
-              "type": "panelimage",
-              "rotationY": 10,
-              "width": 400,
-              "height":200,
-              "source":"averitt-wiki.jpg",
-              "text": "Home of the Emma Kelly Theater, four art galleries with rotating exhibits, workshops, classes, summer camps, performances, and rental opportunities!",
-              "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
-              "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
-           },
+               "type": "panelimage",
+               "rotationY": 0,
+               "width": 550,
+               "height": 400,
+               "source":"campus-map.png",
+               "text": "You are currently at The Venues"
+            },
            {
               "type": "panelimage",
               "rotationY": 170,
-              "width": 400,
-              "height":200,
+              "width": 550,
+              "height": 400,
               "source":"campus-map.png",
-              "text": "Some Text"
+              "text": "You are currently at The Venues"
            }
          ]
       },
       "000002":{
-         "rotationOffset": -50,
+         "rotationOffset": 18,
          "uri":"venues-2.jpg",
          "tooltips":[
             {
@@ -79,46 +77,43 @@
                "linkedPhotoId":"000003"
             },
             {
-               "text":"Outside",
-               "rotationY": 16,
-               "linkedPhotoId":"000001"
-            },
-            {
-               "text":"Stairs",
-               "rotationY": -100,
-               "linkedPhotoId":"000014"
-            },
-            {
-              "type": "panelimage",
-              "rotationY": 360,
-              "width": 1526,
-              "height":1114,
-              "source":"artium-info.png",
-              "text": "Some Text"
-           },
-           {
-              "type": "panelimage",
-              "rotationY": 210,
-              "width": 500,
-              "height":275,
-              "source":"roxie.jpg",
-              "text": "Born in 1919, Remley grew up on a farm near Darlington, Indiana. She graduated from Peabody College with bachelors and master’s degrees in art education before attending the prestigious Pratt Institute School of Art in New York City where she earned a master of fine arts. During World War II she served in the Women’s Army Corps where she was assigned to a top-secret antiaircraft gun battery experiment in Washington D.C. She attained the rank of captain before leaving the service in 1946. In 1950, she came to what was then Georgia Teachers College where she molded a few art education courses into an academic department. She taught drawing, painting and art history at Georgia Southern for 26 years, retiring in 1976. In the years since, she has and continued to produce art. She has shown her work in over 100 exhibitions, including 20 solo exhibitions."
-           }
-         ]
-      },
-      "000003":{
-         "rotationOffset": 100,
-         "uri":"venues-3.jpg",
-         "tooltips":[
-            {
-               "text":"The Theatre",
-               "rotationY": -90,
+               "text":"Kitchen",
+               "rotationY": 30,
                "linkedPhotoId":"000004"
             },
             {
-               "text":"Gallery",
-               "rotationY": 85,
+               "text":"Oak Room",
+               "rotationY": 5,
+               "linkedPhotoId":"000003"
+            },
+            {
+               "text":"Outside",
+               "rotationY": -180,
+               "linkedPhotoId":"000014"
+            },
+           {
+            "type": "panelimage",
+            "rotationY": -5,
+            "width": 522,
+            "height": 601,
+            "source":"atrium-infos.png",
+            "text": ""
+         }
+         ]
+      },
+      "000003":{
+         "rotationOffset": 40,
+         "uri":"venues-3.jpg",
+         "tooltips":[
+            {
+               "text":"Oak Room",
+               "rotationY": -45,
                "linkedPhotoId":"000005"
+            },
+            {
+               "text":"Kitchen",
+               "rotationY": -5,
+               "linkedPhotoId":"000004"
             }
          ]
       },
@@ -127,46 +122,39 @@
          "uri":"venues-4.jpg",
          "tooltips":[
             {
-               "text":"The Theatre",
+               "text":"Oak Room",
                "rotationY": 215,
-               "linkedPhotoId":"000006"
+               "linkedPhotoId":"000003"
             },
             {
-               "text":"Gallery",
-               "rotationY": 280,
+               "text":"The Atrium",
+               "rotationY": 175,
                "linkedPhotoId":"000002"
-            },
-            {
-               "text":"Balcony",
-               "rotationY": 245,
-               "linkedPhotoId":"000013"
-            },
-            {
-               "text":"Outside",
-               "rotationY": 0,
-               "linkedPhotoId":"000010"
             }
          ]
       },
       "000005":{
-       "rotationOffset": 75,
+       "rotationOffset": 190,
        "uri":"venues-5.jpg",
        "tooltips":[
           {
-             "text":"The Theatre",
-             "rotationY": 29.348,
+             "text":"Outside",
+             "rotationY": 160,
+             "linkedPhotoId":"000007"
+          },
+          {
+             "text":"The Atrium",
+             "rotationY": -15,
              "linkedPhotoId":"000003"
           },
           {
-             "text":"Gallery",
-             "rotationY": 29.348,
-             "linkedPhotoId":"000005"
-          },
-          {
-             "text":"Balcony",
-             "rotationY": 29.348,
-             "linkedPhotoId":"000013"
-          }
+            "type": "panelimage",
+            "rotationY": 200,
+            "width": 522,
+            "height": 601,
+            "source":"oak-info.png",
+            "text": ""
+         }
        ]
     },
     "000006":{
