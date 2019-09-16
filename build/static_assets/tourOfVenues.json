@@ -58,6 +58,14 @@
                "text": "Home of the Emma Kelly Theater, four art galleries with rotating exhibits, workshops, classes, summer camps, performances, and rental opportunities!",
                "attribution": "Photo by Richardelainechambers on WikiMedia Commons",
                "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 170,
+               "width": 400,
+               "height":200,
+               "source":"campus-map.png",
+               "text": "Some Text"
             }
           ]
        },
@@ -85,10 +93,8 @@
                "rotationY": 120,
                "width": 256,
                "height":170,
-               "source":"averitt-wiki.jpg",
-               "text": "We are proud to offer professional exhibit seasons in the Main Gallery, a professional performance season in the Emma Kelly Theater, and community/special events and exhibits throughout the year!",
-               "attribution": "Photo by yutacar on upslash",
-               "attributionUri": "https://upload.wikimedia.org/wikipedia/commons/1/12/Averitt_center_for_the_arts_statesboro_georgia.jpg"
+               "source":"atrium-info.png",
+               "text": "Some Text"
             },
             {
                "type": "panelimage",
