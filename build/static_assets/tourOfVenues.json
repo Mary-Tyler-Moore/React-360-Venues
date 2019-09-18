@@ -67,18 +67,13 @@
          "uri":"venues-2.jpg",
          "tooltips":[
             {
-               "text":"The Theatre",
-               "rotationY": 80,
-               "linkedPhotoId":"000003"
-            },
-            {
                "text":"Kitchen",
                "rotationY": 30,
                "linkedPhotoId":"000004"
             },
             {
                "text":"Oak Room",
-               "rotationY": 5,
+               "rotationY": 7,
                "linkedPhotoId":"000003"
             },
             {
@@ -102,13 +97,18 @@
          "tooltips":[
             {
                "text":"Oak Room",
-               "rotationY": -45,
+               "rotationY": -47,
                "linkedPhotoId":"000005"
             },
             {
                "text":"Kitchen",
                "rotationY": -5,
                "linkedPhotoId":"000004"
+            },
+            {
+               "text":"The Atrium",
+               "rotationY": 180,
+               "linkedPhotoId":"000002"
             }
          ]
       },
