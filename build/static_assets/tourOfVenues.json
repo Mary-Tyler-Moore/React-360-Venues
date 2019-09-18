@@ -32,7 +32,7 @@
    "photos":{
       "000001":{
          "rotationOffset": 10,
-         "uri":"venues-1.jpg",
+         "uri":"venues-50.jpg",
          "tooltips":[
             {
                "text":"Industrial Technology Building",
@@ -41,20 +41,15 @@
             },
             {
                "text":"The Atrium",
-               "rotationY": 25,
+               "rotationY": 7,
                "linkedPhotoId":"000002"
-            },
-             {
-               "text":"Compare Insta360",
-               "rotationY": 40,
-               "linkedPhotoId":"000013"
             },
             {
                "type": "panelimage",
                "rotationY": 0,
                "width": 550,
                "height": 400,
-               "source":"campus-map.png",
+               "source":"campus-map-venues.png",
                "text": "You are currently at The Venues"
             },
            {
@@ -140,7 +135,7 @@
           {
              "text":"Outside",
              "rotationY": 160,
-             "linkedPhotoId":"000006"
+             "linkedPhotoId":"000007"
           },
           {
              "text":"The Atrium",
