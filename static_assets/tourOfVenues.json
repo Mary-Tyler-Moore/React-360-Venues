@@ -1,5 +1,5 @@
 {
-   "nav_icon": "nav.png",
+   "nav_icon": "arrow-nav.png",
    "firstPhotoId":"000001",
    "firstPhotoRotation":350,
    "soundEffects": {
@@ -173,9 +173,9 @@
        "uri":"venues-7.jpg",
        "tooltips":[
           {
-             "text":"Lobby",
-             "rotationY": -15.2,
-             "linkedPhotoId":"000008"
+             "text":"Front Entrance",
+             "rotationY": 0,
+             "linkedPhotoId":"000001"
           }
        ]
     },
