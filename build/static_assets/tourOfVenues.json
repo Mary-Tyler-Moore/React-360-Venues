@@ -1,5 +1,5 @@
 {
-   "nav_icon": "arrow.png",
+   "nav_icon": "nav.png",
    "firstPhotoId":"000001",
    "firstPhotoRotation":350,
    "soundEffects": {
@@ -32,7 +32,7 @@
    "photos":{
       "000001":{
          "rotationOffset": 10,
-         "uri":"venues-50.jpg",
+         "uri":"venues-hdr.jpg",
          "tooltips":[
             {
                "text":"Industrial Technology Building",
