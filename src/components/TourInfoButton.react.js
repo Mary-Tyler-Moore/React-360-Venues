@@ -9,7 +9,7 @@ import TourTooltip from 'TourTooltip.react';
 
 /**
  * On hover the InfoButton fades in a Tooltip component, and then fades it out
- * when the cursor leaves both the button and the Tooltip. 
+ * when the cursor leaves both the button and the Tooltip.
  */
 class TourInfoButton extends React.Component {
   static defaultProps = {
@@ -47,7 +47,7 @@ class TourInfoButton extends React.Component {
 
   render() {
     const {
-      height, 
+      height,
       width,
       onInput,
       onClickSound,
@@ -59,14 +59,13 @@ class TourInfoButton extends React.Component {
       tooltip,
     } = this.props;
     return (
-      <VrButton
-        ignoreLongClick={true}
+      <VrButton ignoreLongClick={true}
         onInput={onInput}
-        onExit={this._fadeOut}
         onClickSound={onClickSound}
         onEnterSound={onEnterSound}
         onExitSound={onExitSound}
-        onLongClickSound={onLongClickSound}>
+        onLongClickSound={onLongClickSound}
+        onClick={this.state.hasFocus ? this._fadeOut : this._fadeIn}>
         <Image
           style={{
             height: height,
@@ -74,11 +73,10 @@ class TourInfoButton extends React.Component {
             flexDirection: 'row',
             alignItems: 'center',
           }}
-          onEnter={this._fadeIn}
           source={source}>
           <Animated.View
             // Use animation on opacity to fade in/out the tooltip
-            // When opacity is 0, the tooltip is invisible, and 
+            // When opacity is 0, the tooltip is invisible, and
             // also not interactable.
             style={[
               {
@@ -89,8 +87,7 @@ class TourInfoButton extends React.Component {
                 position: 'absolute',
               },
               showOnLeft ? {right: 80} : {left: 80},
-            ]}
-            onEnter={this.state.hasFocus ? this._fadeIn : undefined}>
+            ]}>
             <TourTooltip tooltip={tooltip} visible={this.state.hasFocus} />
           </Animated.View>
         </Image>

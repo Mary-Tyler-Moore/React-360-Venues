@@ -79,7 +79,7 @@
             {
                "text":"Outside",
                "rotationY": -180,
-               "linkedPhotoId":"000014"
+               "linkedPhotoId":"000001"
             },
            {
             "type": "panelimage",
@@ -294,7 +294,6 @@
                "linkedPhotoId":"000001"
             }
        ]
-    }   
+    }
    }
 }
-

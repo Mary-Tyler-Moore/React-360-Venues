@@ -119,7 +119,7 @@ class TourAppTemplate extends React.Component {
       {tooltips &&
         tooltips.map((tooltip, index) => {
           let rotationY = tooltip.rotationY + rotation;
-          rotationY = (rotationY + 360) % 360; 
+          rotationY = (rotationY + 360) % 360;
           const showOnLeft = !useDynamicSurface && rotationY > 180 && rotationY < 210;
           // Iterate through items related to this location, creating either
           // info buttons, which show tooltip on hover, or nav buttons, which
