@@ -27,6 +27,8 @@ class TourTooltip extends React.Component {
         return <ImageTooltip tooltip={tooltip} />;
       case 'panelimage':
         return <PanelImageTooltip tooltip={tooltip} />;
+      case 'bestofboro':
+        return <PanelImageTooltip tooltip={tooltip} />;
       case 'textblock':
         return <TextBlockTooltip tooltip={tooltip} />;
       case 'video':
@@ -166,7 +168,7 @@ class VideoTooltip extends React.Component {
              width: 800,
              height: 400,
            }}
-         />  
+         />
       </View>
     );
   }
