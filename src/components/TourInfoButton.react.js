@@ -60,10 +60,14 @@ class TourInfoButton extends React.Component {
       height = 60;
       width = 60;
       source = 'info_icon.png'
-    } else {
+    } else if (tooltip.type === 'bestofboro') {
       height = 250;
       width = 250;
       source = '2018.png'
+    } else {
+      height = 250;
+      width = 250;
+      source = '2019.png'
     }
     return (
       <VrButton ignoreLongClick={true}

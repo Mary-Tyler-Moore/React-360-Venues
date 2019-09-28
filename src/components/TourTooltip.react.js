@@ -29,6 +29,8 @@ class TourTooltip extends React.Component {
         return <PanelImageTooltip tooltip={tooltip} />;
       case 'bestofboro':
         return <PanelImageTooltip tooltip={tooltip} />;
+      case 'restofboro':
+        return <PanelImageTooltip tooltip={tooltip} />;  
       case 'textblock':
         return <TextBlockTooltip tooltip={tooltip} />;
       case 'video':
