@@ -88,6 +88,14 @@
             "height": 601,
             "source":"atrium-infos.png",
             "text": ""
+          },
+          {
+           "type": "bestofboro",
+           "rotationY": -60,
+           "width": 522,
+           "height": 601,
+           "source":"oak-info.png",
+           "text": ""
          }
          ]
       },

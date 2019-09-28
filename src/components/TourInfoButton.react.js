@@ -4,7 +4,7 @@
 'use strict';
 
 import React from 'react';
-import {Animated, Image, View, VrButton} from 'react-360';
+import {Animated, Image, View, VrButton, asset} from 'react-360';
 import TourTooltip from 'TourTooltip.react';
 
 /**
@@ -15,9 +15,7 @@ class TourInfoButton extends React.Component {
   static defaultProps = {
     fadeIn: 500,
     fadeOut: 500,
-    height: 60,
     onInput: null,
-    width: 60,
     showOnLeft: false,
   };
 
@@ -47,17 +45,26 @@ class TourInfoButton extends React.Component {
 
   render() {
     const {
-      height,
-      width,
       onInput,
       onClickSound,
       onEnterSound,
       onExitSound,
       onLongClickSound,
-      source,
+      tooltipType,
       showOnLeft,
       tooltip,
     } = this.props;
+
+    let [height, width, source] =[0, 0, ''];
+    if (tooltip.type === 'panelimage') {
+      height = 60;
+      width = 60;
+      source = 'info_icon.png'
+    } else {
+      height = 250;
+      width = 250;
+      source = '2018.png'
+    }
     return (
       <VrButton ignoreLongClick={true}
         onInput={onInput}
@@ -73,7 +80,7 @@ class TourInfoButton extends React.Component {
             flexDirection: 'row',
             alignItems: 'center',
           }}
-          source={source}>
+          source={asset(source)}>
           <Animated.View
             // Use animation on opacity to fade in/out the tooltip
             // When opacity is 0, the tooltip is invisible, and
