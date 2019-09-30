@@ -62,18 +62,18 @@
             },
             { 
                "type":"bestofboro",
-               "rotationY":-60,
+               "rotationY":-30,
                "width":522,
                "height":601,
-               "source":"oak-info.png",
+               "source":"",
                "text":""
             },
             { 
                "type":"restofboro",
-               "rotationY":60,
+               "rotationY":30,
                "width":522,
                "height":601,
-               "source":"atrium-infos.png",
+               "source":"",
                "text":""
             }
          ]
