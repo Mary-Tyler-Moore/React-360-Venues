@@ -63,15 +63,17 @@
             { 
                "type":"bestofboro",
                "rotationY":-30,
-               "width":522,
-               "height":601
+               "width":0,
+               "height":0,
+               "source":""
     
             },
             { 
                "type":"restofboro",
                "rotationY":30,
-               "width":522,
-               "height":601
+               "width":0,
+               "height":0,
+               "source":""
               
             }
          ]
