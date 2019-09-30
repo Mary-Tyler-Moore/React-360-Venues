@@ -1,315 +1,315 @@
-{
-   "nav_icon": "arrow-nav.png",
+{ 
+   "nav_icon":"arrow-nav.png",
    "firstPhotoId":"000001",
    "firstPhotoRotation":350,
-   "soundEffects": {
-      "navButton": {
-         "onEnter": {
-            "uri": "",
-            "attributionUri": "https://freesound.org/people/InspectorJ/sounds/413749/",
-            "volume": 0.05
+   "soundEffects":{ 
+      "navButton":{ 
+         "onEnter":{ 
+            "uri":"",
+            "attributionUri":"https://freesound.org/people/InspectorJ/sounds/413749/",
+            "volume":0.05
          },
-         "onClick": {
-            "uri": "",
-            "attributionUri": "https://freesound.org/people/MichelleGrobler/sounds/410559/",
-            "volume": 0.05
+         "onClick":{ 
+            "uri":"",
+            "attributionUri":"https://freesound.org/people/MichelleGrobler/sounds/410559/",
+            "volume":0.05
          }
       },
-      "infoButton": {
-         "onEnter": {
-            "uri": "",
-            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/",
-            "volume": 0.03
+      "infoButton":{ 
+         "onEnter":{ 
+            "uri":"",
+            "attributionUri":"https://www.freesound.org/people/ianstargem/sounds/278205/",
+            "volume":0.03
          }
       },
-      "ambient": {
-         "uri": "",
-         "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
-         "loop": false,
-         "volume": 0.40
+      "ambient":{ 
+         "uri":"",
+         "attributionUri":"https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+         "loop":false,
+         "volume":0.40
       }
    },
-   "photos":{
-      "000001":{
-         "rotationOffset": 10,
+   "photos":{ 
+      "000001":{ 
+         "rotationOffset":10,
          "uri":"venues-hdr.jpg",
-         "tooltips":[
-            {
+         "tooltips":[ 
+            { 
                "text":"Industrial Technology Building",
-               "rotationY": 187,
+               "rotationY":187,
                "linkedPhotoId":"000011"
             },
-            {
+            { 
                "text":"The Atrium",
-               "rotationY": 7,
+               "rotationY":7,
                "linkedPhotoId":"000002"
             },
-            {
-               "type": "panelimage",
-               "rotationY": 0,
-               "width": 550,
-               "height": 400,
+            { 
+               "type":"panelimage",
+               "rotationY":0,
+               "width":550,
+               "height":400,
                "source":"campus-map-venues.png",
-               "text": "You are currently at The Venues"
+               "text":"You are currently at The Venues"
             },
-           {
-              "type": "panelimage",
-              "rotationY": 170,
-              "width": 550,
-              "height": 400,
-              "source":"campus-map.png",
-              "text": "You are currently at The Venues"
-           }
+            { 
+               "type":"panelimage",
+               "rotationY":170,
+               "width":550,
+               "height":400,
+               "source":"campus-map.png",
+               "text":"You are currently at The Venues"
+            },
+            { 
+               "type":"bestofboro",
+               "rotationY":-60,
+               "width":522,
+               "height":601,
+               "source":"oak-info.png",
+               "text":""
+            },
+            { 
+               "type":"restofboro",
+               "rotationY":60,
+               "width":522,
+               "height":601,
+               "source":"atrium-infos.png",
+               "text":""
+            }
          ]
       },
-      "000002":{
-         "rotationOffset": 18,
+      "000002":{ 
+         "rotationOffset":18,
          "uri":"venues-2.jpg",
-         "tooltips":[
-            {
+         "tooltips":[ 
+            { 
                "text":"Kitchen",
-               "rotationY": 30,
+               "rotationY":30,
                "linkedPhotoId":"000004"
             },
-            {
+            { 
                "text":"Oak Room",
-               "rotationY": 7,
+               "rotationY":7,
                "linkedPhotoId":"000003"
             },
-            {
+            { 
                "text":"Outside",
-               "rotationY": -180,
+               "rotationY":-180,
                "linkedPhotoId":"000001"
             },
-           {
-            "type": "panelimage",
-            "rotationY": -5,
-            "width": 522,
-            "height": 601,
-            "source":"atrium-infos.png",
-            "text": ""
-          },
-          {
-           "type": "bestofboro",
-           "rotationY": -60,
-           "width": 522,
-           "height": 601,
-           "source":"oak-info.png",
-           "text": ""
-         },
-           {
-           "type": "restofboro",
-           "rotationY": 60,
-           "width": 522,
-           "height": 601,
-           "source":"atrium-infos.png",
-           "text": ""
-         }
+            { 
+               "type":"panelimage",
+               "rotationY":-5,
+               "width":522,
+               "height":601,
+               "source":"atrium-infos.png",
+               "text":""
+            }
          ]
       },
-      "000003":{
-         "rotationOffset": 40,
+      "000003":{ 
+         "rotationOffset":40,
          "uri":"venues-3.jpg",
-         "tooltips":[
-            {
+         "tooltips":[ 
+            { 
                "text":"Oak Room",
-               "rotationY": -47,
+               "rotationY":-47,
                "linkedPhotoId":"000005"
             },
-            {
+            { 
                "text":"Kitchen",
-               "rotationY": -5,
+               "rotationY":-5,
                "linkedPhotoId":"000004"
             },
-            {
+            { 
                "text":"The Atrium",
-               "rotationY": 180,
+               "rotationY":180,
                "linkedPhotoId":"000002"
             }
          ]
       },
-      "000004":{
-         "rotationOffset": 185,
+      "000004":{ 
+         "rotationOffset":185,
          "uri":"venues-4.jpg",
-         "tooltips":[
-            {
+         "tooltips":[ 
+            { 
                "text":"Oak Room",
-               "rotationY": 215,
+               "rotationY":215,
                "linkedPhotoId":"000003"
             },
-            {
+            { 
                "text":"The Atrium",
-               "rotationY": 175,
+               "rotationY":175,
                "linkedPhotoId":"000002"
             }
          ]
       },
-      "000005":{
-       "rotationOffset": 190,
-       "uri":"venues-5.jpg",
-       "tooltips":[
-          {
-             "text":"Outside",
-             "rotationY": 160,
-             "linkedPhotoId":"000007"
-          },
-          {
-             "text":"The Atrium",
-             "rotationY": -15,
-             "linkedPhotoId":"000003"
-          },
-          {
-            "type": "panelimage",
-            "rotationY": 200,
-            "width": 522,
-            "height": 601,
-            "source":"oak-info.png",
-            "text": ""
-         }
-       ]
-    },
-    "000006":{
-       "rotationOffset": 50,
-       "uri":"venues-6.jpg",
-       "tooltips":[
-          {
-             "text":"Center Stage",
-             "rotationY": -15.2,
-             "linkedPhotoId":"000007"
-          },
-          {
-             "text":"Lobby",
-             "rotationY": 223,
-             "linkedPhotoId":"000004"
-          }
-       ]
-    },
-    "000007":{
-       "rotationOffset": 10,
-       "uri":"venues-7.jpg",
-       "tooltips":[
-          {
-             "text":"Front Entrance",
-             "rotationY": 0,
-             "linkedPhotoId":"000001"
-          }
-       ]
-    },
-    "000008":{
-       "rotationOffset": 190,
-       "uri":"venues-8.jpg",
-       "tooltips":[
-           {
+      "000005":{ 
+         "rotationOffset":190,
+         "uri":"venues-5.jpg",
+         "tooltips":[ 
+            { 
+               "text":"Outside",
+               "rotationY":160,
+               "linkedPhotoId":"000007"
+            },
+            { 
+               "text":"The Atrium",
+               "rotationY":-15,
+               "linkedPhotoId":"000003"
+            },
+            { 
+               "type":"panelimage",
+               "rotationY":200,
+               "width":522,
+               "height":601,
+               "source":"oak-info.png",
+               "text":""
+            }
+         ]
+      },
+      "000006":{ 
+         "rotationOffset":50,
+         "uri":"venues-6.jpg",
+         "tooltips":[ 
+            { 
+               "text":"Center Stage",
+               "rotationY":-15.2,
+               "linkedPhotoId":"000007"
+            },
+            { 
+               "text":"Lobby",
+               "rotationY":223,
+               "linkedPhotoId":"000004"
+            }
+         ]
+      },
+      "000007":{ 
+         "rotationOffset":10,
+         "uri":"venues-7.jpg",
+         "tooltips":[ 
+            { 
+               "text":"Front Entrance",
+               "rotationY":0,
+               "linkedPhotoId":"000001"
+            }
+         ]
+      },
+      "000008":{ 
+         "rotationOffset":190,
+         "uri":"venues-8.jpg",
+         "tooltips":[ 
+            { 
                "text":"The Theatre",
-               "rotationY": 90,
+               "rotationY":90,
                "linkedPhotoId":"000006"
             },
-            {
+            { 
                "text":"Gallery",
-               "rotationY": 137,
+               "rotationY":137,
                "linkedPhotoId":"000002"
             },
-            {
+            { 
                "text":"Balcony",
-               "rotationY": 122,
+               "rotationY":122,
                "linkedPhotoId":"000013"
             },
-            {
+            { 
                "text":"Outside",
-               "rotationY": 181,
+               "rotationY":181,
                "linkedPhotoId":"000010"
             }
-       ]
-    },
-    "000009":{
-       "rotationOffset": 190,
-       "uri":"venues-9.jpg",
-       "tooltips":[
-           {
+         ]
+      },
+      "000009":{ 
+         "rotationOffset":190,
+         "uri":"venues-9.jpg",
+         "tooltips":[ 
+            { 
                "text":"The Theatre",
-               "rotationY": 90,
+               "rotationY":90,
                "linkedPhotoId":"000006"
             },
-            {
+            { 
                "text":"Gallery",
-               "rotationY": 137,
+               "rotationY":137,
                "linkedPhotoId":"000002"
             },
-            {
+            { 
                "text":"Balcony",
-               "rotationY": 122,
+               "rotationY":122,
                "linkedPhotoId":"000013"
             },
-            {
+            { 
                "text":"Outside",
-               "rotationY": 181,
+               "rotationY":181,
                "linkedPhotoId":"000010"
             }
-       ]
-    },
-    "000010":{
-       "rotationOffset": 210,
-       "uri":"venues-10.jpg",
-       "tooltips":[
-           {
+         ]
+      },
+      "000010":{ 
+         "rotationOffset":210,
+         "uri":"venues-10.jpg",
+         "tooltips":[ 
+            { 
                "text":"The Theatre",
-               "rotationY": 180,
+               "rotationY":180,
                "linkedPhotoId":"000006"
             },
-            {
+            { 
                "text":"Front",
-               "rotationY": -85,
+               "rotationY":-85,
                "linkedPhotoId":"000011"
             },
-            {
-              "type": "panelimage",
-              "rotationY": 124,
-              "width": 400,
-              "height":500,
-              "source":"upcoming.png",
-              "text": "Call our box office at 912-212-2787 to get season tickets.",
-              "attribution": "P",
-              "attributionUri": ""
-           }
-       ]
-    },
-    "000011":{
-       "rotationOffset": 210,
-       "uri":"venues-11.jpg",
-       "tooltips":[
-           {
+            { 
+               "type":"panelimage",
+               "rotationY":124,
+               "width":400,
+               "height":500,
+               "source":"upcoming.png",
+               "text":"Call our box office at 912-212-2787 to get season tickets.",
+               "attribution":"P",
+               "attributionUri":""
+            }
+         ]
+      },
+      "000011":{ 
+         "rotationOffset":210,
+         "uri":"venues-11.jpg",
+         "tooltips":[ 
+            { 
                "text":"The Venues",
-               "rotationY": 50,
+               "rotationY":50,
                "linkedPhotoId":"000001"
             },
-            {
+            { 
                "text":"Robotics Lab",
-               "rotationY": -40,
+               "rotationY":-40,
                "linkedPhotoId":"000012"
             }
-       ]
-    },
-    "000012":{
-       "rotationOffset": 210,
-       "uri":"venues-12.jpg",
-       "tooltips":[
-            {
+         ]
+      },
+      "000012":{ 
+         "rotationOffset":210,
+         "uri":"venues-12.jpg",
+         "tooltips":[ 
+            { 
                "text":"Lobby",
-               "rotationY": -85,
+               "rotationY":-85,
                "linkedPhotoId":"000011"
             }
-       ]
-    },
-    "000013":{
-       "rotationOffset": 210,
-       "uri":"insta-360.png",
-       "tooltips":[
-            {
+         ]
+      },
+      "000013":{ 
+         "rotationOffset":210,
+         "uri":"insta-360.png",
+         "tooltips":[ 
+            { 
                "text":"Return Home",
-               "rotationY": -100,
+               "rotationY":-100,
                "linkedPhotoId":"000001"
             }
-       ]
-    }
+         ]
+      }
    }
 }
