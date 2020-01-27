@@ -1,4 +1,6 @@
-# `React-360-Venues
+# React-360-Venues
+
+<img src="https://github.com/Mary-Tyler-Moore/React-360-Venues/blob/master/React360-Netlify.png?raw=true" width="1000px" />
 
 `React-360-Venues` provide two example ways to place hotspots, which you can switch by setting 
 `useDynamicSurface` to true/false in `index.html`
