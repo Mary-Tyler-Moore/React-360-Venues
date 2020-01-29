@@ -17,5 +17,6 @@
    - It uses the translation on X direction on cylinder layer space to map hotspots' rotation to 3D space.
    - If you want to go with this way, you can remove the `RCTWorkInProgressSurface` and `WorkInProgressSurface` related codes.
 
+## Author's Environmental Impact Statement:
 
-
+#### I am seeking a job as a remote Frontend Developer. My dream is to stop driving my car :car: to the office :office: everyday. Please help me become a more carbon :deciduous_tree: neutral :recycle: JS dev by sharing your star power :sparkles: with me.
