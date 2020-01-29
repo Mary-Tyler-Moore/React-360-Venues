@@ -7,7 +7,7 @@
 # React-360-Venues
 
 ## Tech Stack:
-
+> Check out my other tech stacks [here](https://stackshare.io/Mary-Tyler-Moore)
 <img src="https://github.com/Mary-Tyler-Moore/React-360-Venues/blob/master/React360-Netlify.png?raw=true" width="1000px" />
 
 `React-360-Venues` provide two example ways to place hotspots, which you can switch by setting 
