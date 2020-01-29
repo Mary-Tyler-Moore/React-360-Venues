@@ -1,3 +1,9 @@
+## Star Power :sparkles:
+
+#### If this guide helps please star :star: the repo.
+
+<br />
+
 # React-360-Venues
 
 ## Tech Stack:
