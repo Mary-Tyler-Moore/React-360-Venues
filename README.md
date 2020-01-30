@@ -4,6 +4,9 @@
 
 <br />
 
+## Disclaimer 
+> This project is a WIP. It is the first VR project I made after transitioning from ReactVR to React360. It is in need of a facelift. It is currently hosted on Netlify, but I am considering moving it to PM2/NGINX on DigitalOcean.
+
 # React-360-Venues
 
 ## Tech Stack:
